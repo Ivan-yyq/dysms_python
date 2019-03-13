@@ -1,0 +1,34 @@
+sudo: false
+
+language: python
+
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7-dev"
+
+install:
+  - pip install unittest2
+  - pip install coverage
+  - pip install pycodestyle
+  - pip install mock
+  - pip install jmespath
+
+script:
+  - make lint
+  - make test
+  - test -z $ACCESS_KEY_ID -a -z $ACCESS_KEY_SECRET || make functional-test
+  - make coverage-report
+
+notifications:
+    webhooks: https://oapi.dingtalk.com/robot/send?access_token=096ed387df243a6d60835aadeccc47165f3813bc7cb81cdd0cfeadfd28e3acc1
+    email: false
+    on_success: change
+    on_failure: always
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

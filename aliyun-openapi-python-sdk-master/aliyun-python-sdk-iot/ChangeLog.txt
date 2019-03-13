@@ -1,0 +1,87 @@
+2019-03-08 Version: 7.7.0
+1, add API QueryDeviceDesiredProperty and SetDeviceDesiredProperty.
+2, add iotId support of APIs.
+
+
+2019-02-20 Version: 7.6.2
+1, fix aliyun-net-sdk-iot service code issue.
+
+2019-02-14 Version: 7.6.1
+1, fix SDK.InvalidRegionId exception in aliyun-net-sdk-core.
+
+2019-01-15 Version: 7.6.0
+1, add API of product tags.
+2, add API QueryDeviceGroupByTags.
+3, update response data of API BatchCheckDeviceNames.
+
+2019-01-15 Version: 7.6.0
+1, add API of product tags.
+2, add API QueryDeviceGroupByTags.
+3, update response data of API BatchCheckDeviceNames.
+
+2018-12-09 Version: 7.5.0
+1, Add Open API QuerySuperDeviceGroup.
+2, Add Open API QueryDeviceProperties.
+3, Add Open API QueryDeviceListByDeviceGroup.
+
+2018-11-28 Version: 7.4.0
+1, Add APIs InvokeThingsService, SetDevicesProperty and QueryDeviceByTags .
+
+2018-11-27 Version: 7.3.2
+1, Add APIs InvokeThingsService, SetDevicesProperty and QueryDeviceByTags .
+
+2018-10-16 Version: 7.3.1
+1, remove set group tags API.
+
+2018-10-13 Version: 7.3.0
+1, Add device group related APIs.
+
+2018-10-13 Version: 7.3.0
+1, Add device group related APIs.
+
+2018-10-13 Version: 7.3.0
+1, Add device group related APIs.
+
+2018-09-28 Version: 7.2.0
+1, Add one api, QueryAppDeviceList.
+
+2018-09-27 Version: 7.1.0
+1, Add one api, QueryAppDeviceList.
+
+2018-09-06 Version: 7.0.0
+1, Add API deleteProduct.
+2, Move all API to version 20180120.
+
+2018-08-27 Version: 6.1.0
+1, Add api GetGatewayBySubDevice.
+2, Modified the time related response parameters.
+3, Add messageId in response with InvokeThingService，SetDeviceProperty and NotifyAddThingTopo.
+
+2018-08-07 Version: 6.1.0
+1, Add api GetGatewayBySubDevice.
+2, Modified the time related response parameters.
+3, Add messageId in response with InvokeThingService，SetDeviceProperty and NotifyAddThingTopo.
+
+2018-04-17 Version: 5.0.0
+1, Add plenty of product management interfaces and device management interfaces
+2, Support for thing model and data storage
+
+2018-01-12 Version: 5.0.1
+1, fix the TypeError while building the repeat params
+
+2017-12-01 Version: 5.0.0
+1, Add apis, including QueryDeviceProp, UpdateDeviceProp, DeleteDeviceProp
+2, remove apis of v20170620 and v20170820 version
+
+2017-09-27 Version: 4.1.1
+1, upgrade setup.py to support python3
+
+2017-07-27 Version: 4.1.0
+1, 新增基于MQTT协议的RRPC接口，可以发消息给设备并同步返回响应。
+
+2017-07-25 Version: 4.0.1
+1,  删除了不应对外开放的API。
+
+2017-07-25 Version: 4.0.0
+1,  删除了不应对外开放的API。
+
